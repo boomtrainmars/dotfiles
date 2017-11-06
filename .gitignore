@@ -3,6 +3,7 @@
 .CFUserTextEncoding
 .Trash
 .aws/credentials
+.bash_aliases
 .bash_history
 .bash_it/*
 .bash_sessions

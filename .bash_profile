@@ -54,3 +54,7 @@ source "$BASH_IT"/bash_it.sh
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+if [ -f "~/.bash_aliases" ]; then
+  source ~/.bash_aliases
+fi
