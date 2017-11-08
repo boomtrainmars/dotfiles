@@ -11,8 +11,10 @@ if dein#load_state('~/.vim/bundle')
   call dein#add('Shougo/neocomplete.vim')
   call dein#add('ctrlpvim/ctrlp.vim')
   call dein#add('keith/gist.vim')
+  call dein#add('hashivim/vim-terraform')
   call dein#add('mattn/emmet-vim')
   call dein#add('rizzatti/dash.vim')
+  call dein#add('saltstack/salt-vim')
   call dein#add('tpope/vim-fugitive')
   call dein#add('tpope/vim-sensible')
   call dein#add('vim-airline/vim-airline')
@@ -27,6 +29,10 @@ if dein#load_state('~/.vim/bundle')
   call dein#end()
   call dein#save_state()
 endif
+
+" hashivim/vim-terraform
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
 
 " keith/gist.vim
 let g:gist_default_private=1
