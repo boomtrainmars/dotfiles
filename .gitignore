@@ -21,6 +21,6 @@
 .terraform.d
 .tmux
 .vim
-.viminfo
+.viminfo*
 
 !.bash_it/custom
