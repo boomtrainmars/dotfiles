@@ -38,6 +38,9 @@ let g:terraform_fmt_on_save=1
 let g:gist_default_private=1
 let g:gist_open_url=0
 
+" rizzatti/dash.vim
+nmap <silent> <leader>d <Plug>DashSearch
+
 set expandtab
 set shiftwidth=2
 
