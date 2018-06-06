@@ -51,10 +51,14 @@ export SCM_CHECK=true
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
 
+eval "$(jenv init -)"
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-if [ -f "~/.bash_aliases" ]; then
-  source ~/.bash_aliases
+if [ -f "$HOME/.bash_aliases" ]; then
+  source "$HOME/.bash_aliases"
 fi
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
